@@ -1,0 +1,28 @@
+version: 2
+models:
+- name: sales_person__raw
+  config:
+    alias: raw_sales_person
+  meta:
+    primary_key:
+    - BUSINESSENTITYID
+  tests: []
+  columns:
+  - name: BUSINESSENTITYID
+    description: Business entity code
+  - name: TERRITORYID
+    description: Territory code
+  - name: SALESQUOTA
+    description: Sales quota number
+  - name: BONUS
+    description: Bonus number
+  - name: COMMISSIONPCT
+    description: Commission pct number
+  - name: SALESYTD
+    description: Sales year number
+  - name: SALESLASTYEAR
+    description: Sales last year number
+  - name: ROWGUID
+    description: ''
+  - name: MODIFIEDDATE
+    description: ''

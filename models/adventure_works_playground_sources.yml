@@ -1,0 +1,21 @@
+version:  2
+
+sources: 
+
+- name: dbt_adventure_works
+  schema: dbt_adventure_works
+  tables: 
+      - identifier: seed_sales_currency
+        name: seed_sales_currency
+      - identifier: seed_sales_currency_rate
+        name: seed_sales_currency_rate
+      - identifier: seed_sales_customer
+        name: seed_sales_customer
+      - identifier: seed_sales_order_detail
+        name: seed_sales_order_detail
+      - identifier: seed_sales_order_header
+        name: seed_sales_order_header
+      - identifier: seed_sales_person
+        name: seed_sales_person
+      - identifier: seed_sales_territory
+        name: seed_sales_territory

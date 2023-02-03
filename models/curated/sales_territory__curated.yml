@@ -1,0 +1,24 @@
+version: 2
+models:
+- name: sales_territory__curated
+  config:
+    alias: curated_sales_territory
+  meta: {}
+  tests: []
+  columns:
+  - name: territory_code
+    description: Territory code
+  - name: name_desc
+    description: Name description
+  - name: country_region_code
+    description: Country region code
+  - name: group_country_desc
+    description: Group country description
+  - name: sales_year_amount
+    description: Sales year amount
+  - name: sales_last_year_amount
+    description: Sales last year amount
+  - name: cost_year_amount
+    description: Cost year amount
+  - name: cost_last_year_amount
+    description: Cost last year amount

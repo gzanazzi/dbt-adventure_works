@@ -1,0 +1,24 @@
+version: 2
+models:
+- name: sales_customer__raw
+  config:
+    alias: raw_sales_customer
+  meta:
+    primary_key:
+    - CUSTOMERID
+  tests: []
+  columns:
+  - name: CUSTOMERID
+    description: Customer code
+  - name: PERSONID
+    description: Person code
+  - name: STOREID
+    description: Store code
+  - name: TERRITORYID
+    description: Territory code
+  - name: ACCOUNTNUMBER
+    description: Account number
+  - name: ROWGUID
+    description: ''
+  - name: MODIFIEDDATE
+    description: ''

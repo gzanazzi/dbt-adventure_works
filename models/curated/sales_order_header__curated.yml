@@ -1,0 +1,36 @@
+version: 2
+models:
+- name: sales_order_header__curated
+  config:
+    alias: curated_sales_order_header
+  meta: {}
+  tests: []
+  columns:
+  - name: sales_order_code
+    description: Sales order code
+  - name: order_date
+    description: Order date
+  - name: due_date
+    description: Due date
+  - name: ship_date
+    description: Ship date
+  - name: status_num
+    description: Status
+  - name: online_order_flag_num
+    description: Online order flag
+  - name: customer_code
+    description: Customer code
+  - name: sales_person_code
+    description: Sales person code
+  - name: territory_code
+    description: Territory code
+  - name: currency_rate_code
+    description: Currency rate code
+  - name: sub_total_amount
+    description: Subtotal amount
+  - name: tax_amt_num
+    description: Taxamt number
+  - name: freight_num
+    description: Freight number
+  - name: total_due_amount
+    description: Total due amount

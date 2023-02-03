@@ -1,0 +1,20 @@
+version: 2
+models:
+- name: sales_currency_rate__curated
+  config:
+    alias: curated_sales_currency_rate
+  meta: {}
+  tests: []
+  columns:
+  - name: currency_rate_code
+    description: Currency rate code
+  - name: currency_rate_date
+    description: Currency rate date
+  - name: from_currency_code
+    description: From currency code
+  - name: to_currency_code
+    description: To currency code
+  - name: average_rate_num
+    description: Average rate num
+  - name: end_of_day_rate_num
+    description: End of day rate num

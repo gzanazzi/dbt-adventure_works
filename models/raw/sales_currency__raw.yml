@@ -1,0 +1,16 @@
+version: 2
+models:
+- name: sales_currency__raw
+  config:
+    alias: raw_sales_currency
+  meta:
+    primary_key:
+    - CURRENCYCODE
+  tests: []
+  columns:
+  - name: CURRENCYCODE
+    description: Currency code
+  - name: NAME
+    description: Name description
+  - name: MODIFIEDDATE
+    description: ''

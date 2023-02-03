@@ -1,0 +1,62 @@
+version: 2
+models:
+- name: sales_order_header__raw
+  config:
+    alias: raw_sales_order_header
+  meta:
+    primary_key:
+    - SALESORDERID
+  tests: []
+  columns:
+  - name: SALESORDERID
+    description: Sales order code
+  - name: REVISIONNUMBER
+    description: ''
+  - name: ORDERDATE
+    description: Order date
+  - name: DUEDATE
+    description: Due date
+  - name: SHIPDATE
+    description: Ship date
+  - name: STATUS
+    description: Status
+  - name: ONLINEORDERFLAG
+    description: Online order flag
+  - name: SALESORDERNUMBER
+    description: ''
+  - name: PURCHASEORDERNUMBER
+    description: ''
+  - name: ACCOUNTNUMBER
+    description: ''
+  - name: CUSTOMERID
+    description: Customer code
+  - name: SALESPERSONID
+    description: Sales person code
+  - name: TERRITORYID
+    description: Territory code
+  - name: BILLTOADDRESSID
+    description: ''
+  - name: SHIPTOADDRESSID
+    description: ''
+  - name: SHIPMETHODID
+    description: ''
+  - name: CREDITCARDID
+    description: ''
+  - name: CREDITCARDAPPROVALCODE
+    description: ''
+  - name: CURRENCYRATEID
+    description: Currency rate code
+  - name: SUBTOTAL
+    description: Subtotal amount
+  - name: TAXAMT
+    description: Taxamt number
+  - name: FREIGHT
+    description: Freight number
+  - name: TOTALDUE
+    description: Total due amount
+  - name: COMMENT
+    description: ''
+  - name: ROWGUID
+    description: ''
+  - name: MODIFIEDDATE
+    description: ''

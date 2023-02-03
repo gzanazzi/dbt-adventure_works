@@ -1,0 +1,22 @@
+version: 2
+models:
+- name: sales_person__curated
+  config:
+    alias: curated_sales_person
+  meta: {}
+  tests: []
+  columns:
+  - name: business_entity_code
+    description: Business entity code
+  - name: territory_code
+    description: Territory code
+  - name: sales_quota_num
+    description: Sales quota number
+  - name: bonus_num
+    description: Bonus number
+  - name: commission_pct_num
+    description: Commission pct number
+  - name: sales_ytd_num
+    description: Sales year number
+  - name: sales_last_year_num
+    description: Sales last year number

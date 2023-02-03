@@ -1,0 +1,24 @@
+version: 2
+models:
+- name: sales_currency_rate__raw
+  config:
+    alias: raw_sales_currency_rate
+  meta:
+    primary_key:
+    - CURRENCYRATEID
+  tests: []
+  columns:
+  - name: CURRENCYRATEID
+    description: Currency rate code
+  - name: CURRENCYRATEDATE
+    description: Currency rate date
+  - name: FROMCURRENCYCODE
+    description: From currency code
+  - name: TOCURRENCYCODE
+    description: To currency code
+  - name: AVERAGERATE
+    description: Average rate num
+  - name: ENDOFDAYRATE
+    description: End of day rate num
+  - name: MODIFIEDDATE
+    description: ''

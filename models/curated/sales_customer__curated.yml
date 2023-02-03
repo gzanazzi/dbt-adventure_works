@@ -1,0 +1,18 @@
+version: 2
+models:
+- name: sales_customer__curated
+  config:
+    alias: curated_sales_customer
+  meta: {}
+  tests: []
+  columns:
+  - name: customer_code
+    description: Customer code
+  - name: person_code
+    description: Person code
+  - name: store_code
+    description: Store code
+  - name: territory_code
+    description: Territory code
+  - name: account_num
+    description: Account number

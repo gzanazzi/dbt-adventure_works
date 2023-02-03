@@ -1,0 +1,30 @@
+version: 2
+models:
+- name: sales_territory__raw
+  config:
+    alias: raw_sales_territory
+  meta:
+    primary_key:
+    - TERRITORYID
+  tests: []
+  columns:
+  - name: TERRITORYID
+    description: Territory code
+  - name: NAME
+    description: Name description
+  - name: COUNTRYREGIONCODE
+    description: Country region code
+  - name: GROUPCOUNTRY
+    description: Group country description
+  - name: SALESYTD
+    description: Sales year amount
+  - name: SALESLASTYEAR
+    description: Sales last year amount
+  - name: COSTYTD
+    description: Cost year amount
+  - name: COSTLASTYEAR
+    description: Cost last year amount
+  - name: ROWGUID
+    description: ''
+  - name: MODIFIEDDATE
+    description: ''

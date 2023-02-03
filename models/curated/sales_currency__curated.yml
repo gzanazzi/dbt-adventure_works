@@ -1,0 +1,12 @@
+version: 2
+models:
+- name: sales_currency__curated
+  config:
+    alias: curated_sales_currency
+  meta: {}
+  tests: []
+  columns:
+  - name: currency_code
+    description: Currency code
+  - name: name_desc
+    description: Name description

@@ -1,0 +1,33 @@
+version: 2
+models:
+- name: sales_order_detail__raw
+  config:
+    alias: raw_sales_order_detail
+  meta:
+    primary_key:
+    - SALESORDERID
+    - SALESORDERDETAILID
+  tests: []
+  columns:
+  - name: SALESORDERID
+    description: Sales order code
+  - name: SALESORDERDETAILID
+    description: Sales order detail code
+  - name: CARRIERTRACKINGNUMBER
+    description: Carrier tracking number
+  - name: ORDERQTY
+    description: Order quantity
+  - name: PRODUCTID
+    description: Product code
+  - name: SPECIALOFFERID
+    description: Special offer code
+  - name: UNITPRICE
+    description: Unit price number
+  - name: UNITPRICEDISCOUNT
+    description: Unit price discount number
+  - name: LINETOTAL
+    description: Line total amount
+  - name: ROWGUID
+    description: ''
+  - name: MODIFIEDDATE
+    description: ''

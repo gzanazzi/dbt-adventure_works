@@ -1,0 +1,26 @@
+version: 2
+models:
+- name: sales_order_detail__curated
+  config:
+    alias: curated_sales_order_detail
+  meta: {}
+  tests: []
+  columns:
+  - name: sales_order_code
+    description: Sales order code
+  - name: sales_order_detail_code
+    description: Sales order detail code
+  - name: carrier_tracking_num
+    description: Carrier tracking number
+  - name: order_qty_num
+    description: Order quantity
+  - name: product_code
+    description: Product code
+  - name: special_offer_code
+    description: Special offer code
+  - name: unit_price_num
+    description: Unit price number
+  - name: unit_price_discount_num
+    description: Unit price discount number
+  - name: line_total_amount
+    description: Line total amount

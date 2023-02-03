@@ -1,0 +1,13 @@
+adventure_works_playground:
+  outputs:
+    dev:
+      account: US15150.europe-west4.gcp
+      database: analytics
+      password: SnowFcourse23new
+      role: accountadmin
+      schema: dbt_adventure_works
+      threads: 1
+      type: snowflake
+      user: gzanazzi
+      warehouse: transforming
+  target: dev
